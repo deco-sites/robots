@@ -44,7 +44,6 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/d07c3004-0a61-4a05-92e6-a9e131424ed4",
       "title": "robots.txt",
       "description": "A static file, /robots.txt, specifies which parts of the website are accessible to different users.",
       "cta": [
@@ -55,11 +54,17 @@
           "text": "Google guide"
         }
       ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/d07c3004-0a61-4a05-92e6-a9e131424ed4",
       "tagline": "good bots"
     },
     {
       "__resolveType": "site/sections/Faq.tsx",
       "title": "List of bots",
+      "cta": {
+        "href": "https://radar.cloudflare.com/traffic/verified-bots",
+        "text": "Cloudflare Verified Bots"
+      },
+      "description": "Some well known bots that respect robots.txt",
       "questions": [
         {
           "title": "Googlebot",
@@ -81,12 +86,7 @@
           "title": "Uptime",
           "answer": "<p>Uptime is a health-check service.</p><p></p><p>You can read more <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://uptime.com/uptime-bot\">here</a>.</p>"
         }
-      ],
-      "cta": {
-        "href": "https://radar.cloudflare.com/traffic/verified-bots",
-        "text": "Cloudflare Verified Bots"
-      },
-      "description": "Some well known bots that respect robots.txt"
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -94,6 +94,48 @@
       "description": "Good bots respect <meta name=\"robots\" content=\"noindex\">! Google (and some bots) can respect the content=\"noindex,nofollow\" attribute!",
       "tagline": "good bots",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/c4c270dd-06f5-4e55-b898-ec1051c7ce8a"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>And now, bad bots...</p>",
+      "description": " ",
+      "cta": []
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "They just don't care",
+      "description": "Bad bots fake their user agent. They run on public clouds (google, oracle, aws, microsoft, ...). They don't respect robots, noindex.",
+      "tagline": "bad bots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/e5596ace-d541-44a3-9ab9-d65a4f408670"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "How deco deals with them?",
+      "description": "Cloudflare rules: ban ASN, rate limit, routes.",
+      "tagline": "bad bots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/b12d8d99-3bc0-42a1-afcd-7e39d00dbc3f",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>And... the evil...</p>",
+      "description": " ",
+      "cta": []
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "AI Bots",
+      "description": "New AI bots are being verified and respecting /robots.txt, but they crawl a LOT OF DATA. And there is a new bot every day.",
+      "tagline": "ai bots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/7070e489-1734-4cc0-b17a-20dfbf69b0a8"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "How deco deals with them?",
+      "description": "We are defining a restrict robots.txt to avoid bad behavior and improving CDN rules to avoid a ",
+      "tagline": "ai bots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/b12d8d99-3bc0-42a1-afcd-7e39d00dbc3f",
+      "placement": "right"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
