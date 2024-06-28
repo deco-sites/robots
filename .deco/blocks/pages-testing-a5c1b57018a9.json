@@ -37,7 +37,47 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/a9e25a5f-0354-4fa3-9574-4694eca94d84"
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Lets talk about good bots</p>",
+      "cta": [],
+      "description": " "
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/d07c3004-0a61-4a05-92e6-a9e131424ed4",
+      "title": "robots.txt",
+      "description": "A static file, /robots.txt, specifies which parts of the website are accessible to different users.",
+      "cta": [
+        {
+          "style": "Outline",
+          "id": "Robots.txt",
+          "href": "https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt",
+          "text": "Google guide"
+        }
+      ],
+      "tagline": "good bots"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "List of bots",
+      "questions": [
+        {
+          "title": "Googlebot",
+          "answer": "<p>Google bots, for search indexing.</p><p></p><p>Other bots:</p><ul><li><p>AdsBot-Google</p></li><li><p>Chrome-Lighthouse</p></li><li><p>...</p></li></ul><p></p><p>Full list with userangents <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers?hl=en\">here</a>.</p>"
+        },
+        {
+          "title": "facebookexternalhit",
+          "answer": "<p>Facebook use this user-agent to crawl your site when it is shared via copying and pasting the link or by a Facebook social plugin.</p><p></p><p>More info <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://developers.facebook.com/docs/sharing/webmasters/crawler/\">here</a>.</p>"
+        },
+        {
+          "title": "Bingbot",
+          "answer": "<p>Microsoft bot to crawl sites for Bing.</p><p></p><p>More info:</p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0\">Bing crawlers UA</a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.bing.com/webmasters/help/getting-started-checklist-66a806de\">Configure Bing crawler</a></p></li></ul><p></p><p></p>"
+        }
+      ],
+      "cta": {
+        "href": "https://radar.cloudflare.com/traffic/verified-bots",
+        "text": "Cloudflare Verified Bots"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

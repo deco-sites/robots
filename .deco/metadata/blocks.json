@@ -104,5 +104,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FSlides.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Slides.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FImageSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ImageSection.tsx"
   }
 }
