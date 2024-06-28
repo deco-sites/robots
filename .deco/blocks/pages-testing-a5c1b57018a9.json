@@ -89,7 +89,11 @@
       "description": "Some well known bots that respect robots.txt"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "index meta",
+      "description": "Good bots respect <meta name=\"robots\" content=\"noindex\">! Google (and some bots) can respect the content=\"noindex,nofollow\" attribute!",
+      "tagline": "good bots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/c4c270dd-06f5-4e55-b898-ec1051c7ce8a"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
