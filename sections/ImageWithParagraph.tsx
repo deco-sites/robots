@@ -38,10 +38,7 @@ export default function ImageWithParagraph({
   image = DEFAULT_IMAGE,
   placement = "left",
   disableSpacing,
-  cta = [
-    { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
-    { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
-  ],
+  cta,
 }: Props) {
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">

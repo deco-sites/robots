@@ -4,19 +4,37 @@
   "sections": [
     {
       "__resolveType": "site/sections/Slides.tsx",
-      "enable": true
+      "enable": false
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Robots! All you need to know!</p>",
-      "cta": []
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "cta": [],
+      "description": "Someone is crawling your site to get data"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "placement": "right",
+      "title": "What is a robot?",
+      "description": "Automated software to crawl, process, analyze, verify, and extract data from a given website.",
+      "tagline": "robots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/824196e3-8163-4e6d-b4fe-6a2cdf88b895"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "How a (good) bot works?",
+      "tagline": "robots",
+      "description": "A robot may being parsing a full website or a single site of your page. It will parse a single page if it was discovered via links.\n\nWhen parsing a domain, a good bot will parse a robots.txt. When parsing a page, a good bot will look for your page meta tags.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/a0a48c71-cf4a-451b-979a-3f32ae2abf80",
+      "cta": []
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "title": "How a (bad) bot works?",
+      "description": "It doesn't give a sh*t.",
+      "tagline": "robots",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/a9e25a5f-0354-4fa3-9574-4694eca94d84"
     },
     {
       "__resolveType": "site/sections/Faq.tsx"
