@@ -14,9 +14,9 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right",
       "title": "What is a robot?",
       "description": "Automated software to crawl, process, analyze, verify, and extract data from a given website.",
+      "placement": "right",
       "tagline": "robots",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/824196e3-8163-4e6d-b4fe-6a2cdf88b895"
     },
@@ -30,17 +30,17 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right",
       "title": "How a (bad) bot works?",
       "description": "It doesn't give a sh*t.",
       "tagline": "robots",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/a9e25a5f-0354-4fa3-9574-4694eca94d84"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/a9e25a5f-0354-4fa3-9574-4694eca94d84",
+      "placement": "right"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Lets talk about good bots</p>",
-      "cta": [],
-      "description": " "
+      "description": " ",
+      "cta": []
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -132,10 +132,17 @@
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "How deco deals with them?",
-      "description": "We are defining a restrict robots.txt to avoid bad behavior and improving CDN rules to avoid a ",
+      "description": "We are defining a restrict robots.txt to avoid bad behavior and improving CDN rules to avoid a",
       "tagline": "ai bots",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/b12d8d99-3bc0-42a1-afcd-7e39d00dbc3f",
       "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Thank you!</p>",
+      "description": " ",
+      "cta": [],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10975/d0b96fcc-83db-4e4e-aa6b-f80b58ce5405"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
